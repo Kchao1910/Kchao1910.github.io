@@ -1,5 +1,6 @@
 :root {
-  --red: #e92439;
+  --red: #d32335;
+  --light-gray: #f6f3ea;
 }
 
 * {
@@ -8,11 +9,17 @@
 }
 
 body {
+  background: var(--light-gray);
   padding: 1rem;
 }
 
+div a:hover {
+  background: var(--red);
+  cursor: pointer;
+}
+
 a {
-  color: black;
+  color: var(--light-gray);
   text-decoration: none;
 }
 
@@ -37,7 +44,7 @@ li {
 }
 
 div:nth-child(1) {
-  border: solid 0.5rem white;
+  border: solid 0.5rem var(--light-gray);
   border-radius: 1rem;
   grid-column: 30/32;
   grid-row: 3/5;
@@ -46,7 +53,7 @@ div:nth-child(1) {
 
 div:nth-child(2) {
   border-top-right-radius: 1rem;
-  color: white;
+  color: var(--light-gray);
   background: var(--red);
   grid-column: 30/32;
   grid-row: 3/34;
@@ -56,8 +63,9 @@ div:nth-child(2) {
 
 div:nth-child(3) {
   border-top-right-radius: 1rem;
-  color: white;
+  color: var(--light-gray);
   background: var(--red);
+  font-size: 1.5rem;
   grid-column: 1/31;
   grid-row: 3/5;
 }
@@ -86,48 +94,48 @@ div:nth-child(6) {
 div:nth-child(7) {
   border-top: solid 4px black;
   background: var(--red);
-  color: white;
+  color: var(--light-gray);
   grid-column: 40/50;
   grid-row: 16/18;
 }
 
 div:nth-child(8) {
   background: var(--red);
-  color: white;
+  color: var(--light-gray);
   grid-column: 40/50;
   grid-row: 18/20;
 }
 
 div:nth-child(9) {
   background: var(--red);
-  color: white;
+  color: var(--light-gray);
   grid-column: 40/50;
   grid-row: 20/22;
 }
 
 div:nth-child(10) {
   background: var(--red);
-  color: white;
+  color: var(--light-gray);
   grid-column: 40/50;
   grid-row: 22/24;
 }
 
 div:nth-child(11) {
   background: var(--red);
-  color: white;
+  color: var(--light-gray);
   grid-column: 40/50;
   grid-row: 24/26;
 }
 
 div:nth-child(12) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 32/58;
   grid-row: 10/12;
 }
 
 div:nth-child(13) {
-  border: solid 0.5rem white;
+  border: solid 0.5rem var(--light-gray);
   border-radius: 1rem;
   grid-column: 58/60;
   grid-row: 10/12;
@@ -135,14 +143,14 @@ div:nth-child(13) {
 }
 
 div:nth-child(14) {
-  color: white;
+  color: var(--light-gray);
   background: black;
   grid-column: 1/31;
   grid-row: 10/12;
 }
 
 div:nth-child(15) {
-  color: white;
+  color: var(--light-gray);
   background: var(--red);
   grid-column: 5/10;
   grid-row: 14/16;
@@ -150,49 +158,49 @@ div:nth-child(15) {
 
 div:nth-child(16) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 10/22;
   grid-row: 14/16;
 }
 
 div:nth-child(17) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 10/22;
   grid-row: 16/18;
 }
 
 div:nth-child(18) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 10/22;
   grid-row: 18/20;
 }
 
 div:nth-child(19) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 10/22;
   grid-row: 20/22;
 }
 
 div:nth-child(20) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 10/22;
   grid-row: 22/24;
 }
 
 div:nth-child(21) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 10/22;
   grid-row: 24/26;
 }
 
 div:nth-child(22) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 10/22;
   grid-row: 26/28;
 }
@@ -205,37 +213,57 @@ div:nth-child(23) {
 
 div:nth-child(24) {
   background: var(--red);
-  color: white;
+  color: var(--light-gray);
   grid-column: 38/52;
-  grid-row: 36/38;
+  grid-row: 34/36;
 }
 
 div:nth-child(25) {
   background: black;
-  color: white;
+  color: var(--light-gray);
   grid-column: 38/52;
-  grid-row: 38/40;
+  grid-row: 36/38;
 }
 
 div:nth-child(26) {
   background: black;
-  color: white;
+  color: var(--light-gray);
+  grid-column: 38/52;
+  grid-row: 38/40;
+}
+
+div:nth-child(27) {
+  background: black;
+  color: var(--light-gray);
   grid-column: 38/52;
   grid-row: 40/42;
 }
 
-div:nth-child(27) {
-  background: white;
+div:nth-child(28) {
+  background: var(--light-gray);
   border: solid 1rem black;
   grid-column: 28/34;
   grid-row: 36/42;
 }
 
-div:nth-child(28) {
+div:nth-child(29) {
   background: var(--red);
   grid-column: 30/32;
   grid-row: 38/40;
 }
+
+div:nth-child(30) {
+  color: black;
+  grid-column: 22/24;
+  grid-row: 14/28;
+  writing-mode: vertical-lr;
+  word-spacing: 4px;
+}
+
+
+
+
+
 
 
 

@@ -261,6 +261,10 @@ div:nth-child(30) {
 }
 
 @media screen and (max-width: 500px) {
+  a {
+    font-size: 0.8rem;
+  }
+
   .grid {
     grid-template-columns: repeat(30, 0.8rem);
     grid-template-rows: repeat(98, 0.8rem);

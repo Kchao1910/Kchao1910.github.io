@@ -39,7 +39,7 @@ li {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(61, 1rem);
+  grid-template-columns: repeat(59, 1rem);
   grid-template-rows: repeat(44, 1rem);
 }
 
@@ -444,7 +444,7 @@ div:nth-child(30) {
   }
 
   .grid {
-    grid-template-columns: repeat(61, 0.8rem);
+    grid-template-columns: repeat(59, 0.8rem);
     grid-template-rows: repeat(44, 0.8rem);
   }
   

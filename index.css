@@ -260,7 +260,7 @@ div:nth-child(30) {
   word-spacing: 4px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   a {
     font-size: 0.8rem;
   }
@@ -438,7 +438,7 @@ div:nth-child(30) {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1025px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   a {
     font-size: 0.8rem;
   }

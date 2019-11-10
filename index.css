@@ -260,7 +260,7 @@ div:nth-child(30) {
   word-spacing: 4px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 769px) {
   a {
     font-size: 0.8rem;
   }
@@ -438,6 +438,20 @@ div:nth-child(30) {
   }
 }
 
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  a {
+    font-size: 0.8rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(61, 0.8rem);
+    grid-template-rows: repeat(44, 0.8rem);
+  }
+  
+  div:nth-child(30) {
+    font-size: 0.8rem;
+  }
+}
 
 
 

@@ -130,6 +130,7 @@ div:nth-child(11) {
 div:nth-child(12) {
   background: black;
   color: var(--light-gray);
+  font-size: 1.25rem;
   grid-column: 32/58;
   grid-row: 10/12;
 }
@@ -145,6 +146,7 @@ div:nth-child(13) {
 div:nth-child(14) {
   color: var(--light-gray);
   background: black;
+  font-size: 1.25rem;
   grid-column: 1/31;
   grid-row: 10/12;
 }
@@ -331,6 +333,7 @@ div:nth-child(30) {
 
   div:nth-child(12) {
     border-top-right-radius: 1rem;
+    font-size: 0.9rem;
     grid-column: 2/30;
     grid-row: 44/46;
   }
@@ -341,6 +344,7 @@ div:nth-child(30) {
   }
 
   div:nth-child(14) {
+    font-size: 0.9rem;
     grid-column: 1/30;
   }
 
